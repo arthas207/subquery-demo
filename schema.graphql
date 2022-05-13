@@ -1,0 +1,9 @@
+type Transfer @entity {
+  id: ID!
+  block_number: BigInt
+  from_account: String!
+  to_account: String!
+  balance_change: BigInt
+  timestamp: String!
+}
+
